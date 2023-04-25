@@ -15,12 +15,14 @@ def SSHConnect(ipaddress):
 
 
 def findFiles(ssh_client:paramiko.SSHClient):
+    pass
     #needs to return a list of files and the username of the person we looked at
     #should also print the names of the files and date modified (we should have the logic for this since we did it in a previous lab)
 
     #need to prompt for both the password for the sender email and the password (and username I guess, its not specified
     # in the assignment details) for the compromised machine we are connecting to.
 def sendEmail(senderEmail, recipientEmail, ctoFlag=False):
+    pass
 
     #needs to send an email to recipient (and the cto if the option is present at execution) with
     #file names and user who was impacted
