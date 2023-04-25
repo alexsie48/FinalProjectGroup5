@@ -28,7 +28,7 @@ def sendEmail(senderEmail, recipientEmail, ctoFlag=False):
 def downloadFiles(whereToDownload=""):
     pass
     #check if whereToDownload is still blank, if it is: download in home dir, if not: download in specified dir
-    #probably needs to use sftpp get? not sure tbh
+    #probably needs to use sftpp get? not sure tbh but I think so
 
 def get_parser():
     parser = ap.ArgumentParser(
